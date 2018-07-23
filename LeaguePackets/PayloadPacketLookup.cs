@@ -15,10 +15,6 @@ namespace LeaguePackets
         = new Dictionary<PayloadPacketID, Func<PacketReader, PayloadPacket>>
         {
             {
-                PayloadPacketID.QuickChat,
-                (r) => QuickChat.CreateBody(r)
-            },
-            {
                 PayloadPacketID.RequestJoinTeam,
                 (r) => RequestJoinTeam.CreateBody(r)
             },
@@ -37,6 +33,10 @@ namespace LeaguePackets
             {
                 PayloadPacketID.Chat,
                 (r) => Chat.CreateBody(r)
+            },
+            {
+                PayloadPacketID.QuickChat,
+                (r) => QuickChat.CreateBody(r)
             },
         };
     }

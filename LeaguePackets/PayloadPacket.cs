@@ -16,7 +16,7 @@ namespace LeaguePackets
         {
             writer.WriteByte((byte)ID);
         }
-        public PayloadPacket Create(PacketReader reader)
+        public static PayloadPacket Create(PacketReader reader)
         {
             var id = (PayloadPacketID)reader.ReadByte();
             PayloadPacket packet;

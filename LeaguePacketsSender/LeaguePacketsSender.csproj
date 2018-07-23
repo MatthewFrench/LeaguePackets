@@ -31,11 +31,11 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="ENetCS">
-      <HintPath>..\packages\ENetSharpLeague.1.1.0\lib\net461\ENetCS.dll</HintPath>
-    </Reference>
     <Reference Include="DevOne.Security.Cryptography.BCrypt">
       <HintPath>..\packages\BCrypt.1.0.0.0\lib\DevOne.Security.Cryptography.BCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="ENetCS">
+      <HintPath>..\packages\ENetSharpLeague.1.2.1-beta\lib\net461\ENetCS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

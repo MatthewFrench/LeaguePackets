@@ -362,12 +362,10 @@
     <Compile Include="Extensions\CommonExtensions.cs" />
     <Compile Include="PayloadPacket.cs" />
     <Compile Include="GamePacketLookup.cs" />
-    <Compile Include="PayloadPackets\000_QuickChat.cs" />
     <Compile Include="PayloadPackets\100_RequestJoinTeam.cs" />
     <Compile Include="PayloadPackets\101_RequestResking.cs" />
     <Compile Include="PayloadPackets\102_RequestRename.cs" />
     <Compile Include="PayloadPackets\103_TeamRosterUpdate.cs" />
-    <Compile Include="PayloadPackets\104_Chat.cs" />
     <Compile Include="PayloadPackets\UnknownPayloadPacket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Common\CommonBasicAttack.cs" />
@@ -443,6 +441,10 @@
     <Compile Include="Common\TooltipValues.cs" />
     <Compile Include="PacketReader.cs" />
     <Compile Include="PacketWriter.cs" />
+    <Compile Include="KeyCheckPacket.cs" />
+    <Compile Include="ChannelID.cs" />
+    <Compile Include="PayloadPackets\104_Chat.cs" />
+    <Compile Include="PayloadPackets\105_QuickChat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
